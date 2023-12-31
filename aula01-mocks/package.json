@@ -1,0 +1,23 @@
+{
+  "name": "aula01-mocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "keywords": [],
+  "author": "alex.matias",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": "v20.8.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "dependencies": {
+    "silent": "^0.2.3"
+  }
+}
