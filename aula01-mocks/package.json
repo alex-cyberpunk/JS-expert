@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "alex.matias",
   "license": "ISC",
-  "type": "module",
   "engines": {
     "node": "v20.8.1"
   },
