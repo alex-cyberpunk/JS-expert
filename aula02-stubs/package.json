@@ -1,0 +1,17 @@
+{
+  "name": "aula02-stubs",
+  "version": "1.0.0",
+  "description": "Estudos de stubs do modulo de tests do JSExpert",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/service.test.js"
+  },
+  "keywords": [
+    "JS-expert"
+  ],
+  "author": "alexcybepubk",
+  "license": "ISC",
+  "devDependencies": {
+    "sinon": "^17.0.1"
+  }
+}
