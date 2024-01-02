@@ -1,0 +1,25 @@
+{
+  "name": "aula05-tdd-project-pt01",
+  "version": "1.0.0",
+  "description": "Estudo de implementacao bdd e tdd , a fim de melhorar a implementacao de um projeto de site",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test:cov": "npx nyc  npx mocha --parallel **/**/*.test.js",
+    "seed": "node ./seed"
+  },
+  "author": "alexcyberpunk",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
