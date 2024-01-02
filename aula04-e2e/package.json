@@ -1,0 +1,21 @@
+{
+  "name": "aula04-e2e",
+  "version": "1.0.0",
+  "description": "Estudo de e2e de tests e code coverage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/api.js",
+    "test": "npx mocha -w src/*test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "nyc": "^15.1.0"
+  }
+}
